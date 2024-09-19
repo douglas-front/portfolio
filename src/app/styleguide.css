@@ -1,0 +1,54 @@
+body{
+    background-color: #E8E5E5;
+
+}
+
+::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+}
+
+nav,
+footer,
+section {
+    padding-inline: 1.4583vw;
+}
+
+a{
+    text-decoration: none;
+    color: #1E1E1E;
+}
+h1{
+    font-family: var(--font-lato);
+    font-weight: 900;
+    letter-spacing: 2%;
+    font-size: 20.47vw;
+    text-transform: uppercase;
+    color: #1E1E1E;
+}
+h3{
+    font-family: var(--font-inria);
+    font-size: 5vw;
+    color: #1E1E1E;
+    opacity: 37%;
+}
+h4{
+    font-family: var(--font-inria);
+    font-size: 3.34vw;
+    color: #1E1E1E;
+    text-transform: uppercase;
+}
+p{
+    font-family: var(--font-inria);
+
+    font-size:  1.875vw;
+}
+p.small{
+    font-size: 0.875vw;
+    
+}
+p.tiny{
+    font-family: var(--font-inria);
+
+    font-size: 0.90vw;
+}

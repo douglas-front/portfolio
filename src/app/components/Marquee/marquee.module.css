@@ -1,0 +1,22 @@
+.marquee{
+    margin-top: 5vw;
+    position: relative;
+    padding: 30px 0;
+    font-weight: 400;
+    overflow: hidden;
+}
+.marquee_inner{
+    display: flex;
+    gap: 1vw;
+
+    width: fit-content;
+    flex: auto;
+    flex-direction: row;
+}
+.marquee_part{
+    display: flex;
+    align-items: center;
+    gap: 1vw;
+    flex-shrink: 0;
+    padding: 0 4px;
+}

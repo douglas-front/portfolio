@@ -1,0 +1,42 @@
+.wilderlee{
+    position: relative;
+    display: grid;
+    place-items: center;
+}
+
+.wilderlee video{
+    position: relative;
+    width: 100%;
+    height: 52.9vw;
+    border-radius: 0.67vw;
+    object-fit: cover;
+}
+
+.bg{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 52.9vw;
+    /* background-color: #1E1E1E; */
+    background-color: #E8E5E5;
+
+    border-radius: 0.6vw;
+    z-index: 99;
+}
+
+.info{
+    height: 36.5vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1vw;
+}
+
+.paragraph{
+    overflow: hidden;
+}
+.paragraph span{
+    display: block;
+    transform: translateY(300%);
+}

@@ -1,0 +1,19 @@
+.light,
+.dark{
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100vw;
+    height: 100vh;
+
+}
+
+.dark{
+    background-color: #1E1E1E;
+    z-index: 998;
+}
+.light{
+    z-index: 999;
+
+    background-color: #E8E5E5;
+}

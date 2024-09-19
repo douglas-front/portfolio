@@ -1,0 +1,39 @@
+.nav {
+  position: fixed;
+  top: 1.61458vw;
+  left: 0;
+  width: 100vw;
+
+  z-index: 998;
+}
+.menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-inline: 1.4583vw;
+  list-style: none;
+}
+.menu li {
+  cursor: pointer;
+  font-size: 2.083vw;
+  color: #1e1e1e;
+}
+.menuBtn {
+  position: relative;
+}
+.menuBtn svg {
+  position: absolute;
+  top: 0.5vw;
+  left: -1.658vw;
+}
+.divMenu{
+  position: fixed;
+  right: 4.06vw;
+  background-color: #1e1e1e;
+  width: 22.916vw;
+  height:  29.06vw;
+  border-radius: 50vw;
+  /* border-radius: 0.6vw; */
+  transform: scale(0);
+  
+}

@@ -1,0 +1,28 @@
+.hero{
+    height: 25.93vw;
+}
+
+.title{
+    overflow: hidden;
+    position: absolute;
+    top: 4.40vw;
+    left: 0;
+}
+.title span{
+    display: block;
+    transform: translateY(120%) rotate(10deg);
+}
+
+.info{
+    display: flex;
+    align-items: center;
+    margin-top: 34.375vw;
+}
+
+.paragraph{
+    overflow: hidden;
+}
+.paragraph span{
+    display: block;
+    transform: translateY(300%);
+}

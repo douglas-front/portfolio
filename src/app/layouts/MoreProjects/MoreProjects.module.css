@@ -1,0 +1,21 @@
+.MoreProjects{
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 10.989vw;
+
+    gap: 0.841vw;
+}
+
+.container{
+    overflow: hidden;
+    width: 31.66vw;
+}
+
+.card{
+    transform: translateY(100%);
+    cursor: pointer;
+    width: 31.66vw;
+    height: 27.76vw;
+    background-color: #D9D9D9;
+    border-radius: 0.65vw;
+}

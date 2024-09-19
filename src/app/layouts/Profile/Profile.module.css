@@ -1,0 +1,20 @@
+.profile{
+    height: 45.4vw;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 12.03vw;
+}
+
+.paragraphs{
+    display: flex;
+    flex-direction: column;
+    gap: 1.25vw;
+}
+.paragraph{
+    overflow: hidden;
+    text-align: right;
+}
+.paragraph span{
+    display: block;
+    transform: translateY(300%);
+}
