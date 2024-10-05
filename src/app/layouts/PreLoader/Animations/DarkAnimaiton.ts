@@ -6,6 +6,6 @@ export default function darkAnimation() {
         width: "0vw",
         duration: 1,
         delay: 0.5,
-        ease: "elastic(1,9)"
+        ease: "power2.inOut"
     })
 }

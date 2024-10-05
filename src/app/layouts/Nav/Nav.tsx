@@ -2,23 +2,27 @@
 import { useState } from "react";
 import styles from "./Nav.module.css";
 import gsap from "gsap";
+import Menu from "@/app/layouts/Nav/Menu";
+import paragraphAnimation from "@/app/common/animations/ParagraphAnimation";
+import paragraphOutAnimation from "@/app/common/animations/PaagraphOutAnimation";
 
 export default function Nav() {
   return (
     <nav className={styles.nav}>
-      <Menu />
-
-      <div className={styles.divMenu}></div>
+      <NavOptions/>
+      <div className={styles.divMenu}>
+        <Menu/>
+      </div>
     </nav>
   );
 }
 
-function Menu() {
+function NavOptions() {
 
   const [isNavOpen, setIsNavOpen] = useState<boolean>(true)
 
   const handleMenu = () => {
-
+    
     gsap.to(`.${styles.divMenu}`,{
       scale: isNavOpen ? 1 : 0,
       duration: .5,
@@ -37,10 +41,12 @@ function Menu() {
       ease: "elastic(1,5)"
     })
 
+    isNavOpen? paragraphAnimation({className: `${styles.link}`, delay: .4}) : paragraphOutAnimation(`${styles.link}`)
+
   }
 
   return (
-    <menu className={styles.menu}>
+    <ul className={styles.navOptions}>
       <li>Projects</li>
       <li>
         <svg
@@ -87,6 +93,6 @@ function Menu() {
         </svg>
         Menu
       </li>
-    </menu>
+    </ul>
   );
 }

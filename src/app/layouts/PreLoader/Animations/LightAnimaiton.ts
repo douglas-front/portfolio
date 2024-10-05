@@ -6,6 +6,6 @@ export default function lightAnimation() {
         width: "0vw",
         duration: 1,
         delay: 0.2,
-        ease: "elastic(1,9)"
+        ease: "power2.inOut"
     })
 }

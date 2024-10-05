@@ -16,13 +16,13 @@ export default function Jubas() {
         gsap.to(`.${styles.bg}`,{
             height: "0",
             duration: 1,
-            ease: "elastic(1,9)",
+            ease: "power2.inOut",
             onComplete:()=>{
                 videoRef.current?.play()
             },
             scrollTrigger: {
                 trigger: `.${styles.jubas}`,
-                start: "20% 50%",
+                start: "0% 50%",
                 end: "100% 50%",
                 
             }

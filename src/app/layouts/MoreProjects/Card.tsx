@@ -6,8 +6,6 @@ import ScrollTrigger from "gsap/ScrollTrigger"
 
 export default function Card() {
 
-    
-
     useIsomorphicEffect(()=>{
         gsap.registerPlugin(ScrollTrigger)
 
@@ -27,7 +25,7 @@ export default function Card() {
     return(
         <div className={styles.container}>
             <div className={styles.card}></div>
-            <p className="small">SHSUHS.</p>
+            <p className="small">Portal Grau Técnico</p>
         </div>
     )
 }

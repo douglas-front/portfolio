@@ -10,7 +10,7 @@ export default function Hero() {
 
   useIsomorphicEffect(()=>{
     titleAnimation()
-    paragraphAnimation({className: `${styles.paragraph}`, delay: 0.7})
+    paragraphAnimation({className: `${styles.paragraph}`, delay: 1})
   },[])
 
   return (
