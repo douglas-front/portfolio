@@ -1,4 +1,5 @@
 'use client'
+
 import useIsomorphicEffect from "@/app/common/hooks/useIsomorphicEffect"
 import styles from "./Jubas.module.css"
 import gsap from "gsap"

@@ -1,5 +1,5 @@
 import Button from "@/app/components/Button";
-import styles from "./jubas.module.css";
+import styles from "./Jubas.module.css";
 import useIsomorphicEffect from "@/app/common/hooks/useIsomorphicEffect";
 import gsap from "gsap";
 import ScrollTrigger from "gsap/ScrollTrigger";

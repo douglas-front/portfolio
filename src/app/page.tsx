@@ -3,6 +3,7 @@ import Hero from "@/app/layouts/Hero";
 import NumberOfSection from "@/app/components/NumberOfSection/NumberOfSection";
 import PreLoader from "@/app/layouts/PreLoader";
 import Wilderlee from "@/app/layouts/Wilderlee";
+// import Jubas from "@/app/layouts/Jubas";
 import Jubas from "@/app/layouts/Jubas";
 import MoreProjects from "@/app/layouts/MoreProjects";
 import Profile from "@/app/layouts/Profile";
