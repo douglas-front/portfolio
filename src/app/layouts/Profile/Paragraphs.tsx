@@ -43,7 +43,7 @@ export default function Paragraphs() {
         <p className={styles.paragraph}>
           {" "}
           <span>Com Conhecimentos </span> <span> Em Next.JS, React.JS,</span>{" "}
-          <span> Node.JS, PostgreSQL</span>
+          <span> Node.JS, PostgreSQL, C#</span>
         </p>
       </div>
     )

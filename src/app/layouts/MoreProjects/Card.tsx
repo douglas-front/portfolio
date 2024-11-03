@@ -4,7 +4,13 @@ import styles from "./MoreProjects.module.css"
 import gsap from "gsap"
 import ScrollTrigger from "gsap/ScrollTrigger"
 
-export default function Card() {
+interface IProps{
+    projectName: string
+    url: string
+    image: string
+}
+
+export default function Card({projectName, url, image}: IProps) {
 
     useIsomorphicEffect(()=>{
         gsap.registerPlugin(ScrollTrigger)
@@ -22,10 +28,14 @@ export default function Card() {
         })
     },[])
 
+    const toUrl = () => window.open(url, "_blank")
+
     return(
         <div className={styles.container}>
-            <div className={styles.card}></div>
-            <p className="small">Portal Grau Técnico</p>
+            <div onClick={toUrl} className={styles.card}>
+                <img src={image} alt={projectName} />
+            </div>
+            <p className="small">{projectName}</p>
         </div>
     )
 }

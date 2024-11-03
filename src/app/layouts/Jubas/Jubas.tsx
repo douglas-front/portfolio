@@ -33,7 +33,7 @@ export default function Jubas() {
     return(
         <section className={styles.jubas}>
             <div className={styles.bg}></div>
-            <video ref={videoRef} src="/jubas.mp4" muted loop></video>
+            <video ref={videoRef} src="/Jubas.mp4" muted loop></video>
             <Info/>
         </section>
     )
