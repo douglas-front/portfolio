@@ -5,8 +5,11 @@ import gsap from "gsap";
 import Menu from "@/app/layouts/Nav/Menu";
 import paragraphAnimation from "@/app/common/animations/ParagraphAnimation";
 import paragraphOutAnimation from "@/app/common/animations/PaagraphOutAnimation";
+import useLenisScroll from "@/app/common/hooks/useLenisScroll";
+
 
 export default function Nav() {
+
   return (
     <nav className={styles.nav}>
       <NavOptions/>
@@ -19,6 +22,7 @@ export default function Nav() {
 
 function NavOptions() {
 
+  const lenis = useLenisScroll()
   const [isNavOpen, setIsNavOpen] = useState<boolean>(true)
 
   const handleMenu = () => {
@@ -47,8 +51,8 @@ function NavOptions() {
 
   return (
     <ul className={styles.navOptions}>
-      <li>Projects</li>
-      <li>
+      <a href="https://www.linkedin.com/in/douglas-rodrigues-310128276/" target="_blank"><li>linkedIn</li></a>
+      <li onClick={()=> lenis.current.scrollTo(0)}>
         <svg
           width="12.7125vw"
           height="5.5286vw"

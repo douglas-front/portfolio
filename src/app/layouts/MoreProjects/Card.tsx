@@ -32,7 +32,7 @@ export default function Card({projectName, url, image}: IProps) {
 
     return(
         <div className={styles.container}>
-            <div onClick={toUrl} className={styles.card}>
+            <div onClick={toUrl} className={styles.card} title={`acessar ${projectName}`}>
                 <img src={image} alt={projectName} />
             </div>
             <p className="small">{projectName}</p>

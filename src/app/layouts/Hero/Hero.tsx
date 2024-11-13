@@ -14,7 +14,7 @@ export default function Hero() {
   },[])
 
   return (
-    <section className={styles.hero}>
+    <section className={styles.hero} id="hero">
       <h1 className={styles.title}><span>douglas</span></h1>
       <div className={styles.info}>
         <p className={styles.paragraph}>

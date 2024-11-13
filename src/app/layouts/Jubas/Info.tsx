@@ -32,9 +32,9 @@ export default function Info() {
   return (
     <div className={styles.info}>
       <p className={styles.paragraph}>
-        <span>Projeto Para um</span>
-        <span>Personal Trainer </span>
-        <span> Com Desging Único </span>
+        <span>Vendas De Bolsas</span>
+        <span>Com Api Propria E</span>
+        <span>Um Desging Único</span>
       </p>
 
       <svg
@@ -53,9 +53,9 @@ export default function Info() {
       </svg>
 
       <p className={styles.paragraph}>
-        <span>Desenvolvido em </span> 
-        <span>Next.js e Design</span>
-        <span> Usando o Figma</span>
+        <span>Next.js, Node.js</span> 
+        <span>MongoDB, Figma</span>
+        <span>E Express.js</span>
       </p>
 
       <svg
@@ -76,7 +76,7 @@ export default function Info() {
       <p className={styles.paragraph}>
         <span>Gsap Para Fazer</span>
         <span>Animações, Figma</span>
-        <span>e Lenis Scroll</span>
+        <span>e Locomotive Scroll</span>
       </p>
 
       <Button link="https://jubas-new.vercel.app"/>
