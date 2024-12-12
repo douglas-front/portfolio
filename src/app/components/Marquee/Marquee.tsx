@@ -4,14 +4,9 @@ import marqueeAnimation from "@/app/components/Marquee/Animations/Marquee";
 
 export default function Marquee() {
 
-  useIsomorphicEffect(()=>{
-    marqueeAnimation()
-  },[])
-
   return (
     <div className={styles.marquee}>
-      <div className={styles.marquee_inner}>
-
+   
         <div className={styles.marquee_part}>
           <h4>Fullstack Developer</h4>
           <svg
@@ -83,8 +78,7 @@ export default function Marquee() {
             />
           </svg>
         </div>
-
-      </div>
+        
     </div>
   );
 }

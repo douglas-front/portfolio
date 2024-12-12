@@ -10,6 +10,6 @@ export default function marqueeAnimation(){
     })
 
     gsap.set(`.${styles.marquee_inner}`,{
-        xPercent: -60
+        xPercent: -45
     })
 }
