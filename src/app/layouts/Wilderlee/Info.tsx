@@ -32,6 +32,7 @@ export default function Info() {
 
   return (
     <div className={styles.info}>
+
       <p className={styles.paragraph}>
         <span>Projeto Para um</span>
         <span>Personal Trainer </span>

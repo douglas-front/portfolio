@@ -51,3 +51,9 @@ p.tiny{
 
     font-size: 0.90vw;
 }
+
+@media screen and (max-width: 390px) {
+ p{
+    font-size: 6.41vw;
+ }
+}

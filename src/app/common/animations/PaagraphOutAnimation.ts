@@ -7,4 +7,5 @@ export default function paragraphOutAnimation(className: string) {
         ease: "elastic(1,9)",
         stagger: 0.1,
     })
+    
 }

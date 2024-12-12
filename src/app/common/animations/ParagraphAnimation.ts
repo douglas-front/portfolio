@@ -6,6 +6,7 @@ interface Iprops{
 }
 
 export default function paragraphAnimation({className, delay}:Iprops) {
+
     gsap.to(`.${className} span`,{
         y: 0,
         duration: 1,

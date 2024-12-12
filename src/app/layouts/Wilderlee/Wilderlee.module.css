@@ -41,3 +41,26 @@
     display: block;
     transform: translateY(300%);
 }
+
+
+@media screen and (max-width: 390px) {
+    .wilderlee{
+        place-items: baseline;
+        height: auto;
+    }
+
+    .wilderlee video{
+        height: 52.321vw;
+    }
+    .info svg{
+        display: none;
+    }
+    .info{
+        padding: 12.308vw 0 16.41vw 0;
+        height: auto;
+        flex-direction: column;
+        align-items: baseline;
+        justify-content: initial;
+        gap: 9.231vw;
+    }
+}
