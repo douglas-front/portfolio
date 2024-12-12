@@ -1,4 +1,7 @@
-
+.hero{
+    position: relative;
+    width: 100vw;
+}
 
 .title{
     overflow: hidden;
