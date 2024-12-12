@@ -1,6 +1,4 @@
-.hero{
-    height: 25.93vw;
-}
+
 
 .title{
     overflow: hidden;
@@ -29,12 +27,12 @@
 
 @media screen and (max-width: 490px) {
     .hero{
-        height: 669px;
+        height:171.538vw;
     }
 
     .title{
-        top: 129px;
-        font-size: 90.25px;
+        top: 33.077vw;
+        font-size: 23.141vw;
         left: 50%;
 
         transform: translate(-50%, -0%);
@@ -43,8 +41,8 @@
     .info{
         flex-direction: column;
         align-items: baseline;
-        gap: 15px;
-        padding-top: 315px;
+        gap: 3.846vw;
+        padding-top: 80.769vw;
        
     }
     .info svg{
@@ -52,7 +50,7 @@
     }
 
     .paragraph{
-        font-size: 25px;
+        font-size: 6.41vw;
     }
 
 }
