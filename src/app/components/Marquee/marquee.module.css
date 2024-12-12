@@ -22,3 +22,12 @@
         transform: translateX(calc(-100% - 0vw));
     }
 }
+
+@media screen and (max-width: 390px) {
+    .marquee{
+        margin-top: 80px;
+    }
+    .marquee_part h4{
+        font-size: 32px;
+    }
+}

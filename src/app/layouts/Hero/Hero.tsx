@@ -15,12 +15,15 @@ export default function Hero() {
 
   return (
     <section className={styles.hero} id="hero">
+      
       <h1 className={styles.title}><span>douglas</span></h1>
+    
       <div className={styles.info}>
         <p className={styles.paragraph}>
           <span>Me chamo Douglas</span> <span> sou desenvolvedor </span> <span> fullstack e
           designer.</span>
         </p>
+
         <svg
           width="62.030vw"
           // width="0vw"
@@ -39,10 +42,11 @@ export default function Hero() {
         </svg>
 
         <p className={styles.paragraph}>
-          
           <span>Next.js, Node.js, </span> <span>Figma, PostgreSQL </span> <span>e MongoDB.</span>
         </p>
+        
       </div>
+
       <Marquee/>
     </section>
   );
